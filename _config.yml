@@ -1,0 +1,10 @@
+# please replace the following config by your situation
+baidu_tongji: b93a8d7d51c11168a58dd1f1ef1ea8eb
+weibo_link: http://weibo.com/u/6137781888/home
+reddit_link: https://www.reddit.com/user/wh0197m/
+twitter_link: https://twitter.com/wh0197m
+instagram_link: https://www.instagram.com/wh0197/
+
+default_cover_image: /images/temp.png
+default_post_title: 某一篇
+default_edit_date: Jan 01 2017

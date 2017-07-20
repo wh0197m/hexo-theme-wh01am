@@ -1,0 +1,15 @@
+<div class="col-12 mb-4">
+    <img class="img-fluid project-img" src="<%- config.root %><%- item.cover_image || theme.default_cover_image %>" alt="<%- item.title || theme.default_post_title || " 未名 " %>">
+</div>
+<div class="col-12 col-lg-8 offset-lg-2 mt-4 text-center post-page">
+    <h1>
+        <%- item.title || theme.default_post_title || "未名" %>
+    </h1>
+    <hr>
+    <span class="wh01am-date">
+      <%- item.edit_date || theme.default_edit_date || "JAN 01 1970" %>
+    </span>
+</div>
+<div class="col-12 col-lg-8 offset-lg-2 mt-4 portfolio-content">
+    <%- item.content %>
+</div>
